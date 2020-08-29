@@ -1,0 +1,86 @@
+.navbar {
+  background: rgba(0, 0, 0, 0);
+  transition: .5s;
+}
+
+.navbar.navmuncul {
+  background: rgba(0, 0, 0, 1);
+  border-bottom:1px solid rgba(0,0,0,0);
+}
+
+
+#logoperpus{
+  width: 40px;
+  height: 40px;
+}
+
+.jumbotron{
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: slide 20s infinite;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.efekparallax{
+  opacity: 0;
+  transform:  translate(0, -60px);
+  transition: 1s;
+}
+
+.efekparallax.efekparallaxmuncul{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+
+.KoleksiTerbaru .carousel_slide {
+  opacity: 0;
+  transform:  translate(0, -60px);
+  transition: .5s;
+}
+
+.KoleksiTerbaru .carousel_slide.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+
+
+@keyframes slide{
+  0%{
+    background-image: url(../gambar/1.jpg);
+  }
+  20%{
+    background-image: url(../gambar/1.jpg);
+  }
+  20.1%{
+    background-image: url(../gambar/2.jpg);
+  }
+  40%{
+    background-image: url(../gambar/2.jpg);
+  }
+  40.01%{
+    background-image: url(../gambar/3.jpg);
+  }
+  60%{
+    background-image: url(../gambar/3.jpg);
+  }
+  60.1%{
+    background-image: url(../gambar/4.jpg);
+  }
+  80%{
+    background-image: url(../gambar/4.jpg);
+  }
+  80.1%{
+    background-image: url(../gambar/5.jpg);
+  }
+  100%{
+    background-image: url(../gambar/5.jpg);
+  }
+}
+
+
+.modal-dialog{
+  max-width: 1000px;
+}

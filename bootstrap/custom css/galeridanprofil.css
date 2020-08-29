@@ -1,0 +1,83 @@
+div.gallery {
+  margin: 25px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 320px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  min-height: 100vh;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-size: 16px;
+    color: #495057;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    float: right;
+    margin: 20px;
+    padding: 15px;
+    width: 70%;
+    border: 5px double #555;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    border: 5px double #555;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #555;
+    background-color: transparent;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #cccccc;
+}
+#tabbed_box {
+    margin: 0px auto 0px auto;
+    width:300px;
+}
+navbar-brand{
+  float:left;
+  height:50px;
+  padding:15px 15px;
+  font-size:18px;
+  line-height:20px
+  }
+navbar-brand:focus,
+navbar-brand:hover{
+text-decoration:none
+}
+navbar-brand>img{display:block
+}

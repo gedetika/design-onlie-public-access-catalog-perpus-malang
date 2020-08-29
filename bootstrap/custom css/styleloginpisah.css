@@ -1,0 +1,14 @@
+.intro{
+	height: 100%;
+	animation: no-repeat;
+	position: fixed;
+	background-size: cover;
+}
+
+.container{
+	padding-top: 80px;
+}
+
+.card{
+	background-color: rgba(245, 245, 245, 0.4);
+}

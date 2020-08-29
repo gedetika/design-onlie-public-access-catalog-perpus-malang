@@ -1,0 +1,38 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.parallaxgaleri{
+  opacity: 0;
+  transform:  translate(0, -60px);
+  transition: 1s;
+}
+
+.parallaxgaleri.parallaxgalerimuncul{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow:hover { 
+  transform: translateY(-10px) scale(1.02); 
+  opacity:0.8;
+}
+
+body{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    min-height: 100vh;
+
+  }
+  
+
